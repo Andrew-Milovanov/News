@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "District Pro";
+}
+
+@font-face {
+  font-family: "District Pro";
+  src: url("//db.onlinewebfonts.com/t/9521eaa4348a4ae7277002341aa6c5c6.eot");
+  src: url("//db.onlinewebfonts.com/t/9521eaa4348a4ae7277002341aa6c5c6.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/9521eaa4348a4ae7277002341aa6c5c6.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/9521eaa4348a4ae7277002341aa6c5c6.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/9521eaa4348a4ae7277002341aa6c5c6.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/9521eaa4348a4ae7277002341aa6c5c6.svg#District Pro")
+      format("svg");
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 11pt;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 12pt;
+  }
+}

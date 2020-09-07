@@ -1,0 +1,23 @@
+.wrapper {
+  box-sizing: inherit;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+}
+header {
+}
+main {
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 845px) {
+  .wrapper {
+    width: 94%;
+  }
+}
